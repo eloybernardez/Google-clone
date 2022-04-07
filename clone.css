@@ -1,0 +1,166 @@
+:root {
+  --font-base-md: 1.4rem;
+  --font-base-sm: 1rem;
+  --font-base-lg: 1.8rem;
+  --header-google: 11rem;
+  --google-blue: #4286f5;
+  --google-red: #e94134;
+  --google-yellow: #f9bb04;
+  --google-green: #34a853;
+  --google-background: #efefef;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*----------------------------HEADER-----------------------*/
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar__item {
+  margin: 1rem;
+}
+
+.navbar__item a {
+  text-decoration: none;
+  color: black;
+  font-size: var(--font-base-md);
+}
+
+.navbar__item a figure img {
+  width: 2rem;
+}
+
+.user {
+  border-radius: 1.5rem;
+}
+
+/*----------------------------MAIN-----------------------*/
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container__main h1 {
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 500;
+  font-size: var(--header-google);
+  margin: 3rem;
+}
+
+.blue {
+  color: var(--google-blue);
+}
+
+.green {
+  color: var(--google-green);
+}
+
+.red {
+  color: var(--google-red);
+}
+
+.yellow {
+  color: var(--google-yellow);
+}
+
+.button {
+  margin-right: 1rem;
+  border: 0.1rem solid var(--google-background);
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+}
+
+.form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.form label {
+  width: 100%;
+}
+
+.form label input {
+  width: 80%;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  padding-left: 0.2rem;
+}
+
+.form figure img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.search-bar figure:first-child img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.form div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.search-bar {
+  background: white;
+  border-radius: 2rem;
+  border: 0.1rem solid var(--google-background);
+  width: 100%;
+  height: 4rem;
+}
+
+/*----------------------------FOOTER-----------------------*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-base-md);
+  background-color: var(--google-background);
+  height: 5rem;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer ul li {
+  list-style: none;
+  margin: 1rem;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}
