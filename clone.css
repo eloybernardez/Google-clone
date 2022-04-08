@@ -50,12 +50,15 @@ body {
   font-size: var(--font-base-md);
 }
 
-.navbar__item a figure img {
-  width: 2rem;
+.navbar__item .menu {
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: cover;
 }
 
-.user {
-  border-radius: 1.5rem;
+.navbar__item .user {
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /*----------------------------MAIN-----------------------*/
