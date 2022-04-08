@@ -149,10 +149,21 @@ body {
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   font-size: var(--font-base-md);
   background-color: var(--google-background);
-  height: 5rem;
+  height: 8rem;
+}
+
+.country {
+  border-bottom: 0.1rem solid #666666;
+  padding: 1rem;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer ul {
