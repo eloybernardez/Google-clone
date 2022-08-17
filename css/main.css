@@ -39,6 +39,7 @@ nav .nav-right-section .menu-icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  cursor: pointer;
   width: 25px;
   height: 25px;
 }
@@ -73,6 +74,7 @@ main .main-input-container {
   width: 525px;
   border-radius: 100px;
   border: 1px solid #dfe1e5;
+  padding-left: 6px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +83,7 @@ main .main-input-container {
 main .main-input input {
   width: 450px;
   height: 40px;
-  padding-left: 10px;
+  padding-left: 15px;
   border: none;
   outline: none;
 }
